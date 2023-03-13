@@ -1,0 +1,68 @@
+body{
+    margin:o;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+  background-color: rgb(241, 181, 181);
+}
+
+nav {
+  background-color: rgb(203, 167, 236);
+  display: flex;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+header h1 {
+  text-align: center;
+}
+
+aside {
+  background-color: rgb(235, 110, 235);
+  padding: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding: 10px;
+  width: 75%;
+}
+
+footer {
+  background-color: rgb(233, 169, 169);
+}
+
+footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+footer ul li {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: xx-large;
+}
